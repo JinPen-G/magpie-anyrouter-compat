@@ -1,9 +1,10 @@
 {
   "name": "magpie-anyrouter-compat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Magpie 的 AnyRouter 兼容插件，统一修正 Responses API 的工具定义和历史工具检索格式，减少 invalid tool type 及相关 400 错误。",
   "type": "module",
   "author": "JinPen-G",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JinPen-G/magpie-anyrouter-compat.git"
@@ -21,7 +22,8 @@
   ],
   "files": [
     "anyrouter-compat.middleware.mjs",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "check": "node --check anyrouter-compat.middleware.mjs",
